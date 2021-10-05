@@ -1,0 +1,11 @@
+.loading-screen__heading {
+  font-size: 1.5rem;
+  line-height: calc(16 / 25);
+  font-weight: medium;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+}

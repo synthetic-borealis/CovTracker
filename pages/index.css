@@ -1,4 +1,9 @@
-@import url("../fonts/rubik.css");
+@import url("../fonts/rubik/rubik.css");
 @import url("../vendor/css/normalize.css");
 
 @import url("../blocks/page/page.css");
+
+@import url("../blocks/loading-screen/loading-screen.css");
+@import url("../blocks/loading-screen/__top/loading-screen__top.css");
+@import url("../blocks/loading-screen/__heading/loading-screen__heading.css");
+@import url("../blocks/loading-screen/__bottom/loading-screen__bottom.css");
