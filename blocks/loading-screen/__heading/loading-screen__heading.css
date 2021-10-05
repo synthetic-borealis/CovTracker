@@ -1,6 +1,6 @@
 .loading-screen__heading {
   font-size: 1.5rem;
-  line-height: calc(16 / 25);
+  line-height: 1rem;
   font-weight: medium;
   text-align: center;
   width: 100%;
