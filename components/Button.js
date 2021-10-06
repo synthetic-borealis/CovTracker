@@ -7,6 +7,7 @@ class Button {
   }
 
   _onClick = () => {
+    // TODO: find a better way to toggle this
     this._buttonElement.classList.toggle(buttonSettings.activeButtonClass);
     if (typeof this._clickCallback === "function") {
       this._clickCallback();
