@@ -9,6 +9,7 @@
 @import url("../blocks/button/__icon/_type/button__icon_type_home.css");
 @import url("../blocks/button/__icon/_type/button__icon_type_health.css");
 @import url("../blocks/button/__caption/button__caption.css");
+@import url("../blocks/button/__caption/_position/button__caption_position_below.css");
 
 @import url("../blocks/loading-screen/loading-screen.css");
 @import url("../blocks/loading-screen/__top/loading-screen__top.css");

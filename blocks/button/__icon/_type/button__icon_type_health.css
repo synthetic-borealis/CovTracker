@@ -1,5 +1,6 @@
 .button__icon_type_health {
   background-image: url("../../../../images/icons/PersonCheck.svg");
-  width: 22px;
+  width: 24px;
   height: 22px;
+  background-position: center;
 }
