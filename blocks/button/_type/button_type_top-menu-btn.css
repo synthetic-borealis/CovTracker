@@ -1,0 +1,11 @@
+.button_type_top-menu-btn {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.button_type_top-menu-btn:nth-of-type(1) {
+  margin-right: 22px;
+}
