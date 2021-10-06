@@ -1,0 +1,7 @@
+.bottom-bar__menu {
+  display: flex;
+  justify-content: space-between;
+  width: calc((221 / 375) * 100%);
+  margin: 7px auto;
+  /* min-height: 50px; */
+}

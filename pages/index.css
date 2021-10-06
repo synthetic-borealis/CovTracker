@@ -1,9 +1,19 @@
 @import url("../fonts/rubik/rubik.css");
+@import url("../fonts/work-sans/work-sans.css");
 @import url("../vendor/css/normalize.css");
 
 @import url("../blocks/page/page.css");
+@import url("../blocks/button/button.css");
+@import url("../blocks/button/_type_bottom-menu-btn/button_type_bottom-menu-btn.css");
+@import url("../blocks/button/__icon/button__icon.css");
+@import url("../blocks/button/__icon/_type/button__icon_type_home.css");
+@import url("../blocks/button/__icon/_type/button__icon_type_health.css");
+@import url("../blocks/button/__caption/button__caption.css");
 
 @import url("../blocks/loading-screen/loading-screen.css");
 @import url("../blocks/loading-screen/__top/loading-screen__top.css");
 @import url("../blocks/loading-screen/__heading/loading-screen__heading.css");
 @import url("../blocks/loading-screen/__bottom/loading-screen__bottom.css");
+
+@import url("../blocks/bottom-bar/bottom-bar.css");
+@import url("../blocks/bottom-bar/__menu/bottom-bar__menu.css");
