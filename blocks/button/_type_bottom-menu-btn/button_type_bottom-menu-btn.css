@@ -1,7 +1,6 @@
 .button_type_bottom-menu-btn {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   justify-content: center;
   align-items: center;
   width: 32px;

@@ -1,0 +1,9 @@
+.top-bar {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  padding: 4px 0;
+  outline: 1px dashed red;
+}

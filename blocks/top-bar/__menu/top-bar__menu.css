@@ -1,0 +1,6 @@
+.top-bar__menu {
+  margin: 0 auto;
+  width: calc(339 / 375 * 100%);
+  outline: 1px dashed blue;
+  height: 24px;
+}
