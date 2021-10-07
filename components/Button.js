@@ -1,8 +1,8 @@
 import { buttonSettings } from "../utils/constants.js";
 
 class Button {
-  constructor(buttonID, clickCallback) {
-    this._buttonElement = document.getElementById(buttonID);
+  constructor({buttonID, buttonElement}, clickCallback) {
+    this._buttonElement = buttonElement ? buttonElement : document.getElementById(buttonID);
     this._clickCallback = clickCallback;
   }
 
