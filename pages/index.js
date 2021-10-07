@@ -16,3 +16,7 @@ vaccinationNewsButton.setEventListeners();
 // Tip article panels
 const maskTipPanel = new Panel({panelID: "article-mask"});
 maskTipPanel.setEventListeners();
+
+// Tip cards
+const maskButton = new Button({ buttonID: "wear-mask-card" }, maskTipPanel.open);
+maskButton.setEventListeners();
