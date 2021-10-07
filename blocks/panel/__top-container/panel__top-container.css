@@ -4,5 +4,5 @@
   width: calc(327 / 375 * 100%);
   margin: 0 auto;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
