@@ -18,6 +18,10 @@ class Button {
     }
   };
 
+  setClickCallback = (clickCallback) => {
+    this._clickCallback = clickCallback;
+  };
+
   _onClick = () => {
     this.setEnabled(!this._isEnabled());
     if (typeof this._clickCallback === "function") {

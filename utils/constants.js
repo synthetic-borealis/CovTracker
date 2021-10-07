@@ -3,4 +3,12 @@ const buttonSettings = {
   activeButtonClass: "button_active",
 };
 
-export { buttonSettings };
+const panelSettings = {
+  panelClass: "panel",
+  activePanelClass: "panel_active",
+};
+
+export {
+  buttonSettings,
+  panelSettings,
+};

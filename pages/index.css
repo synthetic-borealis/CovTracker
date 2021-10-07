@@ -28,6 +28,7 @@
 @import url("../blocks/menu-section/menu-section.css");
 
 @import url("../blocks/panel/panel.css");
+@import url("../blocks/panel/_active/panel_active.css");
 @import url("../blocks/panel/__top/panel__top.css");
 @import url("../blocks/panel/__top-container/panel__top-container.css");
 @import url("../blocks/panel/__heading/panel__heading.css");
