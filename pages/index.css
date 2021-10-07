@@ -38,6 +38,8 @@
 @import url("../blocks/panel/__top/panel__top.css");
 @import url("../blocks/panel/__top-container/panel__top-container.css");
 @import url("../blocks/panel/__heading/panel__heading.css");
+@import url("../blocks/panel/__bottom/panel__bottom.css");
+@import url("../blocks/panel/__bottom-container/panel__bottom-container.css");
 
 @import url("../blocks/bottom-bar/bottom-bar.css");
 @import url("../blocks/bottom-bar/__menu/bottom-bar__menu.css");
