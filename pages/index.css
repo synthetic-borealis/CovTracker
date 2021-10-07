@@ -50,31 +50,31 @@
 @import url("../blocks/tips/__item-graphics/_pos/tips__item-graphics_pos_trd.css");
 @import url("../blocks/tips/__item-graphics/_pos/tips__item-graphics_pos_frth.css");
 
-@import url(../blocks/symptoms/symptoms.css);
-@import url(../blocks/symptoms/__container/container.css);
-@import url(../blocks/symptoms/__top/symptoms__top.css);
-@import url(../blocks/symptoms/__top-title/symptoms__top-title.css);
-@import url(../blocks/symptoms/__top-buttons/symptoms__top-buttons.css);
-@import url(../blocks/symptoms/__top-button/symptoms__top-button.css);
-@import url(../blocks/symptoms/__top-button/_type/symptoms__top-button_type_sleep.css);
+@import url("../blocks/symptoms/symptoms.css");
+@import url("../blocks/symptoms/__container/container.css");
+@import url("../blocks/symptoms/__top/symptoms__top.css");
+@import url("../blocks/symptoms/__top-title/symptoms__top-title.css");
+@import url("../blocks/symptoms/__top-buttons/symptoms__top-buttons.css");
+@import url("../blocks/symptoms/__top-button/symptoms__top-button.css");
+@import url("../blocks/symptoms/__top-button/_type/symptoms__top-button_type_sleep.css");
 
-@import url(../blocks/symptoms/__top-button/_type/symptoms__top-button_type_water.css);
-@import url(../blocks/symptoms/__top-button-title/symptoms__top-button-title.css);
-@import url(../blocks/symptoms/__title/symptoms__title.css);
-@import url(../blocks/symptoms/__checkbox/symptoms__checkbox.css);
-@import url(../blocks/symptoms/__switches/symptoms__switches.css);
-@import url(../blocks/symptoms/__switch-container/symptoms__switch-container.css);
-@import url(../blocks/symptoms/__switch-title/symptoms__switch-title.css);
-@import url(../blocks/symptoms/__switch-title-temp/symptoms__switch-title-temp.css);
-@import url(../blocks/symptoms/__mood/symptoms__mood.css);
-@import url(../blocks/symptoms/__mood-button/symptoms__mood-button.css);
-@import url(../blocks/symptoms/__mood-button/_type/symptoms__mood-button_type_sad.css);
-@import url(../blocks/symptoms/__mood-button/_type/symptoms__mood-button_type_nutral.css);
+@import url("../blocks/symptoms/__top-button/_type/symptoms__top-button_type_water.css");
+@import url("../blocks/symptoms/__top-button-title/symptoms__top-button-title.css");
+@import url("../blocks/symptoms/__title/symptoms__title.css");
+@import url("../blocks/symptoms/__checkbox/symptoms__checkbox.css");
+@import url("../blocks/symptoms/__switches/symptoms__switches.css");
+@import url("../blocks/symptoms/__switch-container/symptoms__switch-container.css");
+@import url("../blocks/symptoms/__switch-title/symptoms__switch-title.css");
+@import url("../blocks/symptoms/__switch-title-temp/symptoms__switch-title-temp.css");
+@import url("../blocks/symptoms/__mood/symptoms__mood.css");
+@import url("../blocks/symptoms/__mood-button/symptoms__mood-button.css");
+@import url("../blocks/symptoms/__mood-button/_type/symptoms__mood-button_type_sad.css");
+@import url("../blocks/symptoms/__mood-button/_type/symptoms__mood-button_type_nutral.css");
 
-@import url(../blocks/switch/switch.css);
-@import url(../blocks/switch/__input/switch__input.css);
-@import url(../blocks/switch/__slider/switch__slider.css);
-@import url(../blocks/symptoms/__text-input/symptoms__text-input.css);
+@import url("../blocks/switch/switch.css");
+@import url("../blocks/switch/__input/switch__input.css");
+@import url("../blocks/switch/__slider/switch__slider.css");
+@import url("../blocks/symptoms/__text-input/symptoms__text-input.css");
 
 @import url("../blocks/panel/panel.css");
 @import url("../blocks/panel/_active/panel_active.css");
