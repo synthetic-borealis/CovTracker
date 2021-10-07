@@ -13,3 +13,7 @@
 .news__item:first-of-type {
   margin-left: 15px;
 }
+
+.news__item:last-of-type {
+  margin-right: 15px;
+}
