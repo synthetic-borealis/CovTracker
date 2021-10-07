@@ -1,0 +1,13 @@
+.news__container {
+  display: grid;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  gap: 18px;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+.news__container::-webkit-scrollbar {
+  display: none;
+}

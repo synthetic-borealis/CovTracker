@@ -1,0 +1,7 @@
+.news__item-title{
+    margin: 0;
+    font-weight: 500;
+    max-width: 159px;
+    font-size: 1.125rem;
+    margin-left: 10px;
+}
