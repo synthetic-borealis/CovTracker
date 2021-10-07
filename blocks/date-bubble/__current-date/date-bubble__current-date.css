@@ -2,11 +2,13 @@
     font-size: 1.875rem;
     padding: 0;
     margin: 28px 0 16px 0;
-    line-height: 67%;
+    line-height: 53%;
 }
 
 
 .date-bubble__current-date:last-of-type{
     margin: 0;
     font-size: 1.5rem;
+    line-height: 67%;
+
 }
