@@ -6,9 +6,20 @@ class Button {
     this._clickCallback = clickCallback;
   }
 
+  _isEnabled = () => {
+    return this._buttonElement.classList.contains(buttonSettings.activeButtonClass);
+  };
+
+  setEnabled = (isEnabled) => {
+    if (isEnabled) {
+      this._buttonElement.classList.add(buttonSettings.activeButtonClass);
+    } else {
+      this._buttonElement.classList.remove(buttonSettings.activeButtonClass);
+    }
+  };
+
   _onClick = () => {
-    // TODO: find a better way to toggle this
-    this._buttonElement.classList.toggle(buttonSettings.activeButtonClass);
+    this.setEnabled(!this._isEnabled());
     if (typeof this._clickCallback === "function") {
       this._clickCallback();
     }
