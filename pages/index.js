@@ -1,7 +1,10 @@
 import Button from "../components/Button.js";
 import Panel from "../components/Panel.js";
 
-const testPanel = new Panel({panelID: "article-vitamin-a"});
-testPanel.setEventListeners();
-const openButton = new Button({ buttonID: "menu-button" }, testPanel.open);
-openButton.setEventListeners();
+// News article panels
+const vitaminANewsPanel = new Panel({panelID: "article-vitamin-a"});
+vitaminANewsPanel.setEventListeners();
+
+// News cards
+const vitaminANewsButton = new Button({ buttonID: "vitamin-a-news-card" }, vitaminANewsPanel.open);
+vitaminANewsButton.setEventListeners();
