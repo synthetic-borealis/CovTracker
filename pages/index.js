@@ -18,9 +18,13 @@ const maskTipPanel = new Panel({ panelID: "article-mask" });
 maskTipPanel.setEventListeners();
 const mythsTipPanel = new Panel({ panelID: "article-covid-myths" });
 mythsTipPanel.setEventListeners();
+const homeHealthPanel = new Panel({ panelID: "article-home-health" });
+homeHealthPanel.setEventListeners();
 
 // Tip cards
 const maskButton = new Button({ buttonID: "wear-mask-card" }, maskTipPanel.open);
 maskButton.setEventListeners();
 const mythsButton = new Button({ buttonID: "myths-card" }, mythsTipPanel.open);
 mythsButton.setEventListeners();
+const homeHealthButton = new Button({ buttonID: "home-health-card" }, homeHealthPanel.open);
+homeHealthButton.setEventListeners();
