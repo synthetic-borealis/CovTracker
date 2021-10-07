@@ -12,3 +12,7 @@ const vitaminANewsButton = new Button({ buttonID: "vitamin-a-news-card" }, vitam
 vitaminANewsButton.setEventListeners();
 const vaccinationNewsButton = new Button({ buttonID: "vaccination-news-card" }, vaccinationNewsPanel.open);
 vaccinationNewsButton.setEventListeners();
+
+// Tip article panels
+const maskTipPanel = new Panel({panelID: "article-mask"});
+maskTipPanel.setEventListeners();

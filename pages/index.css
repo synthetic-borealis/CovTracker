@@ -64,6 +64,7 @@
 @import url("../blocks/article/__paragraph/article__paragraph.css");
 @import url("../blocks/article/__paragraph/_gap-size/article__paragraph_gap-size_small.css");
 @import url("../blocks/article/__subtitle/article__subtitle.css");
+@import url("../blocks/article/__subtitle/_size/article__subtitle_size_small.css");
 
 @import url("../blocks/bottom-bar/bottom-bar.css");
 @import url("../blocks/bottom-bar/__menu/bottom-bar__menu.css");
