@@ -14,9 +14,13 @@ const vaccinationNewsButton = new Button({ buttonID: "vaccination-news-card" }, 
 vaccinationNewsButton.setEventListeners();
 
 // Tip article panels
-const maskTipPanel = new Panel({panelID: "article-mask"});
+const maskTipPanel = new Panel({ panelID: "article-mask" });
 maskTipPanel.setEventListeners();
+const mythsTipPanel = new Panel({ panelID: "article-covid-myths" });
+mythsTipPanel.setEventListeners();
 
 // Tip cards
 const maskButton = new Button({ buttonID: "wear-mask-card" }, maskTipPanel.open);
 maskButton.setEventListeners();
+const mythsButton = new Button({ buttonID: "myths-card" }, mythsTipPanel.open);
+mythsButton.setEventListeners();
