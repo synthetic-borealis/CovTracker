@@ -1,7 +1,14 @@
-.news__item-title{
-    margin: 0;
-    font-weight: 500;
-    max-width: 159px;
-    font-size: 1.125rem;
-    margin-left: 10px;
+.news__item-title {
+  margin: 0;
+  font-weight: 500;
+  max-width: 159px;
+  font-size: 1.125rem;
+  margin-left: 10px;
+  line-height: 89%;
+  max-height: 62px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
