@@ -29,7 +29,9 @@
   <section class="add-symptoms">
     <div class="date-bubble">
       <h2 class="date-bubble__title">Today</h2>
-      <p class="date-bubble__current-date date-bubble__current-date_type_number">
+      <p class="
+            date-bubble__current-date date-bubble__current-date_type_number
+          ">
         05
       </p>
       <p class="date-bubble__current-date date-bubble__current-date_type_month">
@@ -38,6 +40,91 @@
       <button class="date-bubble__add-symptoms"></button>
     </div>
   </section>
+  <section class="symptoms">
+    <div class="symptoms__container">
+      <div class="symptoms__top">
+        <div class="button button_type_collapse"></div>
+        <p class="symptoms__top-title">5 October</p>
+      </div>
+      <div class="symptoms__top-buttons">
+
+        <div>
+          <button class="symptoms__top-button"></button>
+          <p class="symptoms__top-button-title">Weight</p>
+        </div>
+        <div>
+          <button class="symptoms__top-button symptoms__top-button_type_sleep"></button>
+          <p class="symptoms__top-button-title">Sleep</p>
+        </div>
+        <div>
+          <button class="symptoms__top-button symptoms__top-button_type_water"></button>
+          <p class="symptoms__top-button-title">Water</p>
+        </div>
+
+      </div>
+      <p class="symptoms__title">Symptoms</p>
+      <div class="symptoms__switches">
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Temperature:</p>
+          <input class="symptoms__checkbox" type="checkbox">
+          <p class="symptoms__switch-title-temp">(put a checkmark if your temperature >37)</p>
+        </div>
+
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Cough:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Fatigue:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Lost smell:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Lost taste:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Headache:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+
+
+
+      </div>
+      <div>
+        <p class="symptoms__title">Other symptoms</p>
+        <input class="symptoms__text-input" type="text">
+      </div>
+      <div>
+        <p class="symptoms__title">Mood</p>
+        <div class="symptoms__mood">
+          <button class="symptoms__mood-button"></button>
+          <button class="symptoms__mood-button symptoms__mood-button_type_nutral"></button>
+          <button class="symptoms__mood-button symptoms__mood-button_type_sad"></button>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <section class="news">
     <h2 class="news__title">News</h2>
@@ -47,34 +134,34 @@
         <p class="news__item-title">Vitamin A treatment trial for Covid loss of smell</p>
       </li>
       <li class="news__item" id="vaccination-news-card">
-        <img class="news__item-image" src="./images/pictures/doctor-icon.png" alt="">
+        <img class="news__item-image" src="./images/pictures/doctor-icon.png" alt="Doctor">
         <p class="news__item-title">Covid: Which countries are vaccinating children and why? </p>
       </li>
       <li class="news__item">
-        <img class="news__item-image" src="./images/pictures/doctor-icon.png" alt="">
-        <p class="news__item-title">Covid: Which countries are vaccinating children and why? </p>
+        <img class="news__item-image" src="./images/pictures/doctor-icon.png" alt="" />
+        <p class="news__item-title">
+          Covid: Which countries are vaccinating children and why?
+        </p>
       </li>
     </ul>
   </section>
 
-  <section>
-
-  </section>
   <section class="tips">
     <h2 class="tips__title">Tips for every day</h2>
     <ul class="tips__container">
-      <li class="tips__item" id="wear-mask-card">
+      <li class="tips__item button" id="wear-mask-card">
         <div class="tips__item-graphics"></div>
         <p class="tips__item-title">When should you wear a mask</p>
       </li>
-      <li class="tips__item" id="myths-card">
+      <li class="tips__item button" id="myths-card">
         <div class="tips__item-graphics tips__item-graphics_pos_sec"></div>
         <p class="tips__item-title">Myths and misconceptions</p>
       </li>
-      <li class="tips__item" id="home-health-card">
+      <li class="tips__item button" id="home-health-card">
         <div class="tips__item-graphics tips__item-graphics_pos_trd"></div>
         <p class="tips__item-title">Home Health</p>
-      <li class="tips__item">
+      </li>
+      <li class="tips__item button">
         <div class="tips__item-graphics tips__item-graphics_pos_frth"></div>
         <p class="tips__item-title">When should you wear a mask</p>
       </li>
@@ -111,74 +198,89 @@
     </div>
     <div class="panel__bottom">
       <div class="panel__bottom-container article">
-        <h2 class="article__title">Vitamin A treatment trial for Covid loss of smell</h2>
-        <img src="./images/pictures/orange-large.jpg" alt="" class="article__picture">
+        <h2 class="article__title">
+          Vitamin A treatment trial for Covid loss of smell
+        </h2>
+        <img src="./images/pictures/orange-large.jpg" alt="" class="article__picture" />
         <p class="article__paragraph">
-          Vitamin A nasal drops might be able to treat the loss or altered sense of smell in some people who have had
-          Covid, UK researchers say.
+          Vitamin A nasal drops might be able to treat the loss or altered
+          sense of smell in some people who have had Covid, UK researchers
+          say.
         </p>
         <p class="article__paragraph">
           The University of East Anglia is conducting a 12-week trial.
         </p>
         <p class="article__paragraph">
-          Only some of the volunteer patients will receive the treatment but all will be asked to sniff powerful odours
-          such as rotten eggs and roses.
+          Only some of the volunteer patients will receive the treatment but
+          all will be asked to sniff powerful odours such as rotten eggs and
+          roses.
         </p>
         <p class="article__paragraph">
-          And brain scans will check if the vitamin has repaired injured olfactory pathways or "smell nerves".
+          And brain scans will check if the vitamin has repaired injured
+          olfactory pathways or "smell nerves".
         </p>
         <p class="article__paragraph">
-          Since I had Covid, food makes me want to vomit. Covid smell loss made meat taste like petrol. Loss or
-          altered sense of smell is a common symptom of Covid, although many other viruses, such as flu, can also cause
-          it.
+          Since I had Covid, food makes me want to vomit. Covid smell loss
+          made meat taste like petrol. Loss or altered sense of smell is a
+          common symptom of Covid, although many other viruses, such as flu,
+          can also cause it.
         </p>
         <p class="article__paragraph article__paragraph_gap-size_small">
-          And while most people naturally regain it within a couple of weeks, many have been left with continuing smell
-          disorders.
+          And while most people naturally regain it within a couple of weeks,
+          many have been left with continuing smell disorders.
         </p>
 
         <h3 class="article__subtitle">Life hacks</h3>
         <p class="article__paragraph">
-          Simple things such as showering or brushing her teeth are also unpleasant because of her skewed sense of
-          smell.
+          Simple things such as showering or brushing her teeth are also
+          unpleasant because of her skewed sense of smell.
         </p>
         <p class="article__paragraph">
-          But the situation has improved gradually and Lina has found a few life hacks that help.
+          But the situation has improved gradually and Lina has found a few
+          life hacks that help.
         </p>
         <p class="article__paragraph">
-          "Adding lemon or chilli to foods can make them smell better," she says.
+          "Adding lemon or chilli to foods can make them smell better," she
+          says.
         </p>
         <p class="article__paragraph">
-          "I also experimented and made lists of safe foods that would not make me want to vomit.
+          "I also experimented and made lists of safe foods that would not
+          make me want to vomit.
         </p>
         <p class="article__paragraph article__paragraph_gap-size_small">
-          I had to be creative about it to make sure I was eating enough of the right things to stay well."
+          I had to be creative about it to make sure I was eating enough of
+          the right things to stay well."
         </p>
 
         <h3 class="article__subtitle">Olfactory bulb</h3>
         <p class="article__paragraph">
-          Lead researcher Prof Carl Philpott, from UEA's Norwich Medical School and James Paget University Hospitals NHS
-          Trust, said: "We want to find out whether there is an increase in the size and activity of damaged smell
-          pathways in patients' brains when they are treated with vitamin-A nasal drops.
+          Lead researcher Prof Carl Philpott, from UEA's Norwich Medical
+          School and James Paget University Hospitals NHS Trust, said: "We
+          want to find out whether there is an increase in the size and
+          activity of damaged smell pathways in patients' brains when they are
+          treated with vitamin-A nasal drops.
         </p>
         <p class="article__paragraph">
-          "We will look for changes in the size of the olfactory bulb - an area above the nose where the smell nerves
-          join together and connect to the brain.
+          "We will look for changes in the size of the olfactory bulb - an
+          area above the nose where the smell nerves join together and connect
+          to the brain.
         </p>
         <p class="article__paragraph">
-          "We will also look at activity in areas of the brain linked to recognising smells."
+          "We will also look at activity in areas of the brain linked to
+          recognising smells."
         </p>
         <p class="article__paragraph">
           Vitamin A, or retinol, helps maintain:
         </p>
         <p class="article__paragraph">
           the immune system - the body's defence against illness and infection
-          eyesight, particularly vision in dim light
-          the skin and lining of some parts of the body, including the nose
-          Many dairy foods, as well as some vegetables, contain this fat-soluble vitamin.
+          eyesight, particularly vision in dim light the skin and lining of
+          some parts of the body, including the nose Many dairy foods, as well
+          as some vegetables, contain this fat-soluble vitamin.
         </p>
         <p class="article__paragraph">
-          But people taking vitamin-A supplements should be aware too much can be harmful.
+          But people taking vitamin-A supplements should be aware too much can
+          be harmful.
         </p>
       </div>
     </div>
