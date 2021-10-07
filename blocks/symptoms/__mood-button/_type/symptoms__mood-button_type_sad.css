@@ -1,0 +1,17 @@
+.symptoms__mood-button_type_sad {
+  background-image: url(../../../../images/icons/EmojiFrown.svg);
+  background-color: rgba(235, 87, 87, 1);
+  transition: background-color 0.5s;
+}
+
+.symptoms__mood-button_type_sad:hover {
+  background-color: rgba(240, 149, 149, 1);
+  transition: background-color 0.5s;
+
+}
+
+.symptoms__mood-button_type_sad:focus {
+  background-color: rgba(225, 0, 0, 1);
+  transition: background-color 0.5s;
+
+}
