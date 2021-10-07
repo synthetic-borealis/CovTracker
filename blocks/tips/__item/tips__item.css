@@ -11,6 +11,7 @@
   position: relative;
   padding:0;
   z-index: 9;
+  overflow: hidden;
 }
 
 
