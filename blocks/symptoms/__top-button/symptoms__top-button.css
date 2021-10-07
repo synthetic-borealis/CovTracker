@@ -1,0 +1,10 @@
+.symptoms__top-button{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    background-color:rgba(98, 132, 249, 1) ;
+    background-image: url(../../../images/icons/Vesy-napolnyesvg\ 1.svg);
+    background-repeat: no-repeat;
+    background-position:center ;
+}

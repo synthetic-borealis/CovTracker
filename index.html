@@ -42,51 +42,86 @@
   </section>
   <section class="symptoms">
     <div class="symptoms__container">
-      <div>
+      <div class="symptoms__top">
         <div class="button button_type_collapse"></div>
-        <p>5 October</p>
+        <p class="symptoms__top-title">5 October</p>
       </div>
-      <div>
-        <button></button>
-        <button></button>
-        <button></button>
-      </div>
-      <p></p>
-      <input type="checkbox">
-      <label class="switch">
-        <input type="checkbox">
-        <span class="slider round"></span>
-      </label>
-      <label class="switch">
-        <input type="checkbox">
-        <span class="slider round"></span>
-      </label>
-      <label class="switch">
-        <input type="checkbox">
-        <span class="slider round"></span>
-      </label>
-      <label class="switch">
-        <input type="checkbox">
-        <span class="slider round"></span>
-      </label>
-      <label class="switch">
-        <input type="checkbox">
-        <span class="slider round"></span>
-      </label>
-      <p></p>
+      <div class="symptoms__top-buttons">
 
-      <input type="text">
-
-      <div>
-        <p></p>
         <div>
-          <button></button>
-          <button></button>
-          <button></button>
+          <button class="symptoms__top-button"></button>
+          <p class="symptoms__top-button-title">Weight</p>
+        </div>
+        <div>
+          <button class="symptoms__top-button symptoms__top-button_type_sleep"></button>
+          <p class="symptoms__top-button-title">Sleep</p>
+        </div>
+        <div>
+          <button class="symptoms__top-button symptoms__top-button_type_water"></button>
+          <p class="symptoms__top-button-title">Water</p>
+        </div>
+
+      </div>
+      <p class="symptoms__title">Symptoms</p>
+      <div class="symptoms__switches">
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Temperature:</p>
+          <input class="symptoms__checkbox" type="checkbox">
+          <p class="symptoms__switch-title-temp">(put a checkmark if your temperature >37)</p>
+        </div>
+
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Cough:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Fatigue:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Lost smell:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Lost taste:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Headache:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+
+
+
+      </div>
+      <div>
+        <p class="symptoms__title">Other symptoms</p>
+        <input class="symptoms__text-input" type="text">
+      </div>
+      <div>
+        <p class="symptoms__title">Mood</p>
+        <div class="symptoms__mood">
+          <button class="symptoms__mood-button"></button>
+          <button class="symptoms__mood-button symptoms__mood-button_type_nutral"></button>
+          <button class="symptoms__mood-button symptoms__mood-button_type_sad"></button>
 
         </div>
       </div>
-
     </div>
   </section>
 
@@ -101,7 +136,7 @@
         </p>
       </li>
       <li class="news__item">
-        <img class="news__item-image" src="./images/pictures/doctor-icon.png" alt="" />
+        <img class="news__itsem-image" src="./images/pictures/doctor-icon.png" alt="" />
         <p class="news__item-title">
           Covid: Which countries are vaccinating children and why?
         </p>
@@ -116,7 +151,7 @@
   </section>
 
   <section class="tips">
-    <h2 class="tips__title">Tips for every day</h2>
+    <h2 clas="tips__title">Tips for every day</h2>
     <ul class="tips__container">
       <li class="tips__item">
         <div class="tips__item-graphics"></div>
