@@ -40,6 +40,13 @@
 @import url("../blocks/news/__item-title/news__item-title.css");
 @import url("../blocks/news/__item-image/news__item-image.css");
 
+@import url(../blocks/tips/tips.css);
+@import url(../blocks/tips/__title/tips__title.css);
+@import url(../blocks/tips/__container/tips__container.css);
+@import url(../blocks/tips/__item/tips__item.css);
+@import url(../blocks/tips/__item-title/tips__item-title.css);
+@import url(../blocks/tips/__item-graphics/tips__item-graphics.css);
+
 @import url("../blocks/panel/panel.css");
 @import url("../blocks/panel/_active/panel_active.css");
 @import url("../blocks/panel/__top/panel__top.css");
