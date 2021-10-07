@@ -1,15 +1,14 @@
-.news__container {
-  display: grid;
+.tips__container {
+  display: flex;
   overflow: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  gap: 18px;
-  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.news__container::-webkit-scrollbar {
+.tips__container::-webkit-scrollbar {
   display: none;
 }

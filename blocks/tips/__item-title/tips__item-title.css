@@ -1,0 +1,15 @@
+.tips__item-title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 89%;
+  max-height: 62px;
+  max-width: 70px;
+  color: white;
+  position: relative;
+  border-radius: 50%;
+  list-style-type: none;
+  text-indent: 0;
+  padding: 0;
+  z-index: 10;
+}
