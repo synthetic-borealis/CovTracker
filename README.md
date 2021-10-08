@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="./images/screenshots/screenshot-main.png" style="margin-right: 10px">
+<img src="./images/screenshots/screenshot-main.png">
 <img src="./images/screenshots/screenshot-symptoms.png">
 
 
@@ -44,14 +44,11 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- BEM
+- CSS
 - Flexbox
-- CSS Grid
+- Java Script
+- BEM
 - Mobile-first workflow
-- JS
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
