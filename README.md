@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="./images/screenshots/screenshot-main.png">
+<img src="./images/screenshots/screenshot-main.png" style="margin-right: 10px">
 <img src="./images/screenshots/screenshot-symptoms.png">
 
 
