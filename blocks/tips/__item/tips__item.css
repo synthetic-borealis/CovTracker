@@ -8,28 +8,28 @@
   box-sizing: border-box;
   overflow-wrap: break-word;
   position: relative;
-  padding:0;
+  padding: 0;
   z-index: 9;
   overflow: hidden;
 }
 
-
-
 .tips__item:first-of-type {
   margin-left: 15px;
-  padding:25px 25px 20px 10px ;
+  padding: 25px 25px 20px 10px;
+}
+
+.tips__item:last-of-type {
+  margin-right: 15px;
 }
 
 .tips__item:nth-of-type(2n) {
-  padding:49px 4px 12px 26px ;
+  padding: 49px 4px 12px 26px;
 }
 
 .tips__item:nth-of-type(3n) {
-  padding:10px 25px 26px 10px ;
+  padding: 10px 25px 26px 10px;
 }
 
 .tips__item:nth-of-type(4n) {
-  padding:25px 25px 20px 10px ;
+  padding: 25px 25px 20px 10px;
 }
-
-

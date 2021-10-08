@@ -1,22 +1,18 @@
-.date-bubble__add-symptoms{
-    margin-top: 18px;
-    height: 48px;
-    width: 48px;
-    border-radius: 50%;
-    background-image: url(../../../images/icons/plus.svg);
-    background-repeat: no-repeat;
-    background-position:center ;
-    background-color:#8CA4FA ;
-    border: 0;
-    padding: 0;
-    transition: background-color 0.5s;
-
-
+.date-bubble__add-symptoms {
+  margin-top: 18px;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background-image: url(../../../images/icons/plus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #8ca4fa;
+  border: 0;
+  padding: 0;
+  transition: background-color 0.5s;
 }
 
-.date-bubble__add-symptoms:hover{
-
-    background-color:#476EF9 ;
-    transition: background-color 0.5s;
+.date-bubble__add-symptoms:hover {
+  background-color: #476ef9;
+  transition: background-color 0.5s;
 }
-

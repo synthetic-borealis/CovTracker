@@ -1,7 +1,7 @@
 .page {
-    font-family: 'Work Sans', sans-serif;
-    background-image: url("../../images/pictures/BG.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+  font-family: "Work Sans", sans-serif;
+  background-image: url("../../images/pictures/BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }

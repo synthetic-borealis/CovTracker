@@ -18,11 +18,6 @@
 @import url("../blocks/button/__caption/_position/button__caption_position_below.css");
 @import url("../blocks/menu-section/menu-section.css");
 
-@import url("../blocks/loading-screen/loading-screen.css");
-@import url("../blocks/loading-screen/__top/loading-screen__top.css");
-@import url("../blocks/loading-screen/__heading/loading-screen__heading.css");
-@import url("../blocks/loading-screen/__bottom/loading-screen__bottom.css");
-
 @import url("../blocks/top-bar/top-bar.css");
 @import url("../blocks/top-bar/__menu/top-bar__menu.css");
 @import url("../blocks/menu-section/menu-section.css");

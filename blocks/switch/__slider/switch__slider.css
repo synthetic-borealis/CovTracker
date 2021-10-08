@@ -5,7 +5,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 34px;
@@ -22,6 +22,5 @@
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 50%;
-  border: 1px solid #2F5CFB;
-
+  border: 1px solid #2f5cfb;
 }

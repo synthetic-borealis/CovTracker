@@ -4,7 +4,7 @@
   border-radius: 50%;
   border: none;
   background-color: rgba(39, 174, 96, 1);
-  background-image: url(../../../images/icons/EmojiSmile.svg);
+  background-image: url("../../../images/icons/EmojiSmile.svg");
   background-position: center;
   background-repeat: no-repeat;
   transition: background-color 0.5s;
