@@ -23,8 +23,9 @@ A personal Covid-19 symptom tracker.
 
 Users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
+- View the the app on a mobile divice
 - See hover states for all interactive elements on the page
+- Add their symptoms on a daily basis
 - View each planet page and toggle between "Overview", "Internal Structure", and "Surface Geology"
 
 ### Screenshot
@@ -43,12 +44,11 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- BEM
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- JS
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
