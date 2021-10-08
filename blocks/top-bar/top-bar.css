@@ -1,0 +1,9 @@
+.top-bar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 32px;
+  background-color: rgba(238, 247, 254, 0.85);
+  padding: 4px 0;
+}

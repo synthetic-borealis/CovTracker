@@ -1,0 +1,10 @@
+.panel__top {
+  /* padding-top: 29px; */
+  padding: 29px 0 4px;
+  opacity: 0;
+  transition: opacity .05s linear;
+}
+
+.panel_active > .panel__top {
+  opacity: 1;
+}

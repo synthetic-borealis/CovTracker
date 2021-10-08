@@ -1,0 +1,19 @@
+.news__item {
+  min-width: 269px;
+  max-height: 100px;
+  background-color: white;
+  margin: 0;
+  border: 1px solid #2f5cfb;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 18px 15px 18px 15px;
+  display: flex;
+}
+
+.news__item:first-of-type {
+  margin-left: 15px;
+}
+
+.news__item:last-of-type {
+  margin-right: 15px;
+}

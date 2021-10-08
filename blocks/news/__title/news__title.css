@@ -1,0 +1,9 @@
+.news__title {
+  margin: 15px 0 4% 15px;
+  font-family: "rubik";
+  color: white;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 67%;
+  letter-spacing: -0.24px;
+}

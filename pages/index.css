@@ -1,9 +1,92 @@
 @import url("../fonts/rubik/rubik.css");
+@import url("../fonts/work-sans/work-sans.css");
 @import url("../vendor/css/normalize.css");
 
 @import url("../blocks/page/page.css");
+@import url("../blocks/button/button.css");
+@import url("../blocks/button/_type/button_type_top-menu-btn.css");
+@import url("../blocks/button/_type/button_type_bottom-menu-btn.css");
+@import url("../blocks/button/__icon/button__icon.css");
+@import url("../blocks/button/__icon/_type/button__icon_type_menu.css");
+@import url("../blocks/button/__icon/_type/button__icon_type_calendar.css");
+@import url("../blocks/button/__icon/_type/button__icon_type_notifications.css");
+@import url("../blocks/button/__icon/_type/button__icon_type_home.css");
+@import url("../blocks/button/__icon/_type/button__icon_type_health.css");
+@import url("../blocks/button/_type/button_type_collapse.css");
+@import url("../blocks/button/__caption/button__caption.css");
+@import url("../blocks/button/__caption/_position/button__caption_position_left.css");
+@import url("../blocks/button/__caption/_position/button__caption_position_below.css");
+@import url("../blocks/menu-section/menu-section.css");
 
-@import url("../blocks/loading-screen/loading-screen.css");
-@import url("../blocks/loading-screen/__top/loading-screen__top.css");
-@import url("../blocks/loading-screen/__heading/loading-screen__heading.css");
-@import url("../blocks/loading-screen/__bottom/loading-screen__bottom.css");
+@import url("../blocks/top-bar/top-bar.css");
+@import url("../blocks/top-bar/__menu/top-bar__menu.css");
+@import url("../blocks/menu-section/menu-section.css");
+
+@import url("../blocks/add-symptoms/add-symptoms.css");
+@import url("../blocks/date-bubble/date-bubble.css");
+@import url("../blocks/date-bubble/__title/date-bubble__title.css");
+@import url("../blocks/date-bubble/__current-date/date-bubble__current-date.css");
+@import url("../blocks/date-bubble/__add-symptoms/date-bubble__add-symptoms.css");
+
+@import url("../blocks/news/news.css");
+@import url("../blocks/news/__title/news__title.css");
+@import url("../blocks/news/__container/news__container.css");
+@import url("../blocks/news/__item/news__item.css");
+@import url("../blocks/news/__item-title/news__item-title.css");
+@import url("../blocks/news/__item-image/news__item-image.css");
+
+@import url("../blocks/tips/tips.css");
+@import url("../blocks/tips/__title/tips__title.css");
+@import url("../blocks/tips/__container/tips__container.css");
+@import url("../blocks/tips/__item/tips__item.css");
+@import url("../blocks/tips/__item-title/tips__item-title.css");
+@import url("../blocks/tips/__item-graphics/tips__item-graphics.css");
+@import url("../blocks/tips/__item-graphics/_pos/tips__item-graphics_pos_sec.css");
+@import url("../blocks/tips/__item-graphics/_pos/tips__item-graphics_pos_trd.css");
+
+@import url("../blocks/switch/switch.css");
+@import url("../blocks/switch/__input/switch__input.css");
+@import url("../blocks/switch/__slider/switch__slider.css");
+@import url("../blocks/symptoms/__text-input/symptoms__text-input.css");
+
+@import url("../blocks/panel/panel.css");
+@import url("../blocks/panel/_active/panel_active.css");
+@import url("../blocks/panel/__top/panel__top.css");
+@import url("../blocks/panel/__top-container/panel__top-container.css");
+@import url("../blocks/panel/__heading/panel__heading.css");
+@import url("../blocks/panel/__bottom/panel__bottom.css");
+@import url("../blocks/panel/__bottom-container/panel__bottom-container.css");
+
+@import url("../blocks/symptoms/symptoms.css");
+@import url("../blocks/symptoms/__container/container.css");
+@import url("../blocks/symptoms/__top/symptoms__top.css");
+@import url("../blocks/symptoms/__top-title/symptoms__top-title.css");
+@import url("../blocks/symptoms/__top-buttons/symptoms__top-buttons.css");
+@import url("../blocks/symptoms/__top-button/symptoms__top-button.css");
+@import url("../blocks/symptoms/__top-button/_type/symptoms__top-button_type_sleep.css");
+@import url("../blocks/symptoms/__top-button/_type/symptoms__top-button_type_water.css");
+@import url("../blocks/symptoms/__top-button-title/symptoms__top-button-title.css");
+@import url("../blocks/symptoms/__title/symptoms__title.css");
+@import url("../blocks/symptoms/__checkbox/symptoms__checkbox.css");
+@import url("../blocks/symptoms/__switches/symptoms__switches.css");
+@import url("../blocks/symptoms/__switch-container/symptoms__switch-container.css");
+@import url("../blocks/symptoms/__switch-title/symptoms__switch-title.css");
+@import url("../blocks/symptoms/__switch-title-temp/symptoms__switch-title-temp.css");
+@import url("../blocks/symptoms/__mood/symptoms__mood.css");
+@import url("../blocks/symptoms/__mood-button/symptoms__mood-button.css");
+@import url("../blocks/symptoms/__mood-button/_type/symptoms__mood-button_type_sad.css");
+@import url("../blocks/symptoms/__mood-button/_type/symptoms__mood-button_type_nutral.css");
+
+@import url("../blocks/article/article.css");
+@import url("../blocks/article/__title/article__title.css");
+@import url("../blocks/article/__picture/article__picture.css");
+@import url("../blocks/article/__paragraph/article__paragraph.css");
+@import url("../blocks/article/__paragraph/_gap-size/article__paragraph_gap-size_small.css");
+@import url("../blocks/article/__subtitle/article__subtitle.css");
+@import url("../blocks/article/__subtitle/_size/article__subtitle_size_small.css");
+@import url("../blocks/article/__ordered-list/article__ordered-list.css");
+@import url("../blocks/article/__ordered-list-item/article__ordered-list-item.css");
+@import url("../blocks/article/__link/article__link.css");
+
+@import url("../blocks/bottom-bar/bottom-bar.css");
+@import url("../blocks/bottom-bar/__menu/bottom-bar__menu.css");

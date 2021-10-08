@@ -1,0 +1,9 @@
+.button__icon_type_home {
+  background-image: url("../../../../images/icons/HouseDoor.svg");
+  width: 22px;
+  height: 22px;
+}
+
+.button_active > .button__icon_type_home {
+  background-image: url("../../../../images/icons/HouseDoorFill.svg");
+}

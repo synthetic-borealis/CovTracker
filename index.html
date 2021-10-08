@@ -2,20 +2,352 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CovTracker</title>
-  <link rel="stylesheet" href="pages/index.css">
+  <link rel="stylesheet" href="pages/index.css" />
 </head>
 
 <body class="page">
-  <div class="loading-screen">
-    <div class="loading-screen__top">
-      <h2 class="loading-screen__heading">Take care of yourself</h2>
+  <header class="top-bar">
+    <nav class="top-bar__menu">
+      <div class="button button_type_top-menu-btn" role="button" id="menu-button">
+        <div class="button__icon button__icon_type_menu"></div>
+      </div>
+      <div class="menu-section">
+        <div class="button button_type_top-menu-btn" role="button" aria-label="Date button">
+          <p class="button__caption button__caption_position_left">October</p>
+          <div class="button__icon button__icon_type_calendar"></div>
+        </div>
+        <div class="button button_type_top-menu-btn" role="button" aria-label="Notifications button">
+          <div class="button__icon button__icon_type_notifications"></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="add-symptoms">
+    <div class="date-bubble">
+      <h2 class="date-bubble__title">Today</h2>
+      <p class="date-bubble__current-date date-bubble__current-date_type_number">
+        05
+      </p>
+      <p class="date-bubble__current-date date-bubble__current-date_type_month">
+        October
+      </p>
+      <button class="date-bubble__add-symptoms button" id="symptoms-button"></button>
     </div>
-    <div class="loading-screen__bottom"></div>
-  </div>
+  </section>
+
+  <section class="news">
+    <h2 class="news__title">News</h2>
+    <ul class="news__container ">
+      <li class="news__item button" id="vitamin-a-news-card">
+        <img class="news__item-image" src="./images/pictures/orange.png" alt="Orange">
+        <p class="news__item-title">Vitamin A treatment trial for Covid loss of smell</p>
+      </li>
+      <li class="news__item" id="vaccination-news-card">
+        <img class="news__item-image" src="./images/pictures/doctor-icon.png" alt="Doctor">
+        <p class="news__item-title">Covid: Which countries are vaccinating children and why? </p>
+      </li>
+      <li class="news__item">
+        <img class="news__item-image" src="./images/pictures/doctor-icon.png" alt="" />
+        <p class="news__item-title">
+          Covid: Which countries are vaccinating children and why?
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="tips">
+    <h2 class="tips__title">Tips for every day</h2>
+    <ul class="tips__container">
+      <li class="tips__item button" id="wear-mask-card">
+        <div class="tips__item-graphics"></div>
+        <p class="tips__item-title">When should you wear a mask</p>
+      </li>
+      <li class="tips__item button" id="myths-card">
+        <div class="tips__item-graphics tips__item-graphics_pos_sec"></div>
+        <p class="tips__item-title">Myths and misconceptions</p>
+      </li>
+      <li class="tips__item button" id="home-health-card">
+        <div class="tips__item-graphics tips__item-graphics_pos_trd"></div>
+        <p class="tips__item-title">Home Health</p>
+      </li>
+      <li class="tips__item button">
+        <div class="tips__item-graphics tips__item-graphics_pos_frth"></div>
+        <p class="tips__item-title">When should you wear a mask</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Symptoms Panel -->
+  <section class="panel" id="symptoms">
+    <div class="panel__top">
+      <div class="panel__top-container">
+        <div class="button button_type_collapse"></div>
+        <h2 class="panel__heading">5 October</h2>
+      </div>
+    </div>
+
+    <div class="panel__bottom symptoms">
+      <div class="symptoms__top-buttons">
+        <div>
+          <button class="symptoms__top-button"></button>
+          <p class="symptoms__top-button-title">Weight</p>
+        </div>
+        <div>
+          <button class="symptoms__top-button symptoms__top-button_type_sleep"></button>
+          <p class="symptoms__top-button-title">Sleep</p>
+        </div>
+        <div>
+          <button class="symptoms__top-button symptoms__top-button_type_water"></button>
+          <p class="symptoms__top-button-title">Water</p>
+        </div>
+      </div>
+
+      <p class="symptoms__title">Symptoms</p>
+      <div class="symptoms__switches">
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Temperature:</p>
+          <input class="symptoms__checkbox" type="checkbox">
+          <p class="symptoms__switch-title-temp">(put a checkmark if your temperature >37)</p>
+        </div>
+
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Cough:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Fatigue:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Lost smell:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Lost taste:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Headache:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+      </div>
+      <div>
+        <p class="symptoms__title">Other symptoms</p>
+        <input class="symptoms__text-input" type="text">
+      </div>
+      <div>
+        <p class="symptoms__title">Mood</p>
+        <div class="symptoms__mood">
+          <button class="symptoms__mood-button"></button>
+          <button class="symptoms__mood-button symptoms__mood-button_type_nutral"></button>
+          <button class="symptoms__mood-button symptoms__mood-button_type_sad"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- News Article Panels -->
+  <section class="panel" id="article-vitamin-a">
+    <div class="panel__top">
+      <div class="panel__top-container">
+        <div class="button button_type_collapse"></div>
+      </div>
+    </div>
+    <div class="panel__bottom">
+      <div class="panel__bottom-container article">
+        <h2 class="article__title">
+          Vitamin A treatment trial for Covid loss of smell
+        </h2>
+        <img src="./images/pictures/orange-large.jpg" alt="" class="article__picture" />
+        <p class="article__paragraph">
+          Vitamin A nasal drops might be able to treat the loss or altered
+          sense of smell in some people who have had Covid, UK researchers
+          say.
+        </p>
+        <p class="article__paragraph article__paragraph_gap-size_small">
+          The University of East Anglia is...
+        </p>
+        <p class="article__paragraph">
+          <a href="https://www.bbc.com/news/health-58705938" class="article__link" target="_blank">
+            Click here to read the full article at BBC.com
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="article-vaccination">
+    <div class="panel__top">
+      <div class="panel__top-container">
+        <div class="button button_type_collapse"></div>
+      </div>
+    </div>
+    <div class="panel__bottom">
+      <div class="panel__bottom-container article">
+        <h2 class="article__title">Covid: Which countries are vaccinating children and why?</h2>
+        <img src="./images/pictures/image3-large.jpg" alt="" class="article__picture">
+        <p class="article__paragraph">
+          Children in the UK aged 12 to 15 are set to be able to get a Covid jab, following advice from the UK's chief
+          medical officers.
+        </p>
+        <p class="article__paragraph">
+          They have recommended the youngsters should be...
+        </p>
+        <p class="article__paragraph">
+          <a href="https://www.bbc.com/news/health-58516207" class="article__link" target="_blank">
+            Click here to read the full article at BBC.com
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tip Article Panels -->
+  <section class="panel" id="article-mask">
+    <div class="panel__top">
+      <div class="panel__top-container">
+        <div class="button button_type_collapse"></div>
+      </div>
+    </div>
+    <div class="panel__bottom">
+      <div class="panel__bottom-container article">
+        <h2 class="article__title">When should you wear a mask</h2>
+        <img src="./images/pictures/gabriella-clare-marino-jvMpZ7n-pQ0-unsplash.jpg" alt="A man and a cat"
+          class="article__picture">
+        <p class="article__paragraph article__paragraph_gap-size_small">
+          Masks help to prevent respiratory droplets from spreading around and should be worn as much as possible when
+          leaving your home.
+        </p>
+
+        <h3 class="article__subtitle">Cat Ipsum</h3>
+        <p class="article__paragraph">
+          Cat ipsum dolor sit amet, commence midnight zoomies and fish i must find my red catnip fishy fish walk on
+          keyboard but groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the
+          rest of the day - checked. Fall over dead (not really but gets sypathy) nyaa nyaa weigh eight pounds but take
+          up a full-size bed.
+        </p>
+        <p class="article__paragraph">
+          When in doubt, wash side-eyes your "jerk" other hand while being petted meow in empty rooms i is not fat, i is
+          fluffy eat a rug and furry furry hairs everywhere oh no human coming lie on counter don't get off counter
+          sleep. Whatever run as fast as i can into another room for no reason. Get away from me stupid dog fish i must
+          find my red catnip fishy fish or meow meow you are my owner so here is a dead bird. Catasstrophe.
+        </p>
+        <p class="article__paragraph">
+          Eats owners hair then claws head cats secretly make all the worlds muffins yet annoy the old grumpy cat, start
+          a fight and then retreat to wash when i lose. Lay on arms while you're using the keyboard.
+        </p>
+        <p class="article__paragraph">
+          Demand to be let outside at once, and expect owner to wait for me as i think about it kitty pounce, trip,
+          faceplant you didn't see that no you didn't definitely didn't lick, lick, lick, and preen away the
+          embarrassment so sniff sniff yet leave fur on owners clothes. Pee on walls it smells like breakfast chase the
+          pig around the house paw at beetle and eat it before it gets away, but jumps off balcony gives owner dead
+          mouse at present then poops in litter box snatches yarn and fights with dog cat chases laser then plays in
+          grass finds tiny spot in cupboard and sleeps all day jumps in bathtub and meows when owner fills food dish the
+          cat knocks over the food dish cat slides down the water slide and into pool and swims even though it does not
+          like water.
+        </p>
+        <p class="article__paragraph">
+          Annoy kitten brother with poking eats owners hair then claws head this cat happen now, it was too purr-fect!!!
+          when owners are asleep, cry for no apparent reason and need to check on human, have not seen in an hour might
+          be dead oh look, human is alive, hiss at human, feed me.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="article-covid-myths">
+    <div class="panel__top">
+      <div class="panel__top-container">
+        <div class="button button_type_collapse"></div>
+      </div>
+    </div>
+    <div class="panel__bottom">
+      <div class="panel__bottom-container article">
+        <h2 class="article__title">Myths and misconception</h2>
+        <img src="./images/pictures/mustafa-omar-WQUWCcDO8uI-unsplash.jpg" alt="A masked woman"
+          class="article__picture">
+        <h3 class="article__subtitle">Myth 1: Ivermectin can be used to treat Covid-19</h3>
+        <p class="article__paragraph">
+          Ivermectin is a medication that can be used to treat a wide range of parasitic infestations in both humans and
+          animals, but is mostly known for its use in treatment of livestock.
+        </p>
+        <p class="article__paragraph article__paragraph_gap-size_small">
+          Claims have recently been pushed by activists and politicians as a potential treatment for Covid symptoms.
+          These claims, however, are not backed by scientific evidence.
+        </p>
+
+        <h3 class="article__subtitle">Myth 2: Covid-19 vaccines hurt fertility</h3>
+        <p class="article__paragraph">
+          One argument against vaccination against Covid-19 that’s been spread by some is based on claims that the
+          vaccines hurt human fertility. These claims are false and are not backed by evidence.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="article-home-health">
+    <div class="panel__top">
+      <div class="panel__top-container">
+        <div class="button button_type_collapse"></div>
+      </div>
+    </div>
+    <div class="panel__bottom">
+      <div class="panel__bottom-container article">
+        <h2 class="article__title">#HealthyAtHome</h2>
+        <img src="./images/pictures/annie-spratt-g9KFpAfQ5bc-unsplash.jpg" alt="A woman with an iMac"
+          class="article__picture">
+        <p class="article__paragraph">
+          Due to the Covid-19 pandemic, many people are forced to stay at home. This results in reduction of both
+          physical activity and social interaction. These, in turn, result in negative effects on people’s physical and
+          mental health.
+        </p>
+        <p class="article__paragraph article__paragraph_gap-size_small">
+          Here are some tips to help you to stay healthy during this pandemic:
+        </p>
+        <ol class="article__ordered-list">
+          <li class="article__ordered-list-item">Eat healthy.</li>
+          <li class="article__ordered-list-item">Find a physical activity routine that you can follow at home.</li>
+          <li class="article__ordered-list-item">Quit smoking.</li>
+          <li class="article__ordered-list-item">Watch your and others’ mental health.</li>
+          <li class="article__ordered-list-item">Drink plenty of water.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom Bar -->
+  <footer class="bottom-bar">
+    <nav class="bottom-bar__menu">
+      <div class="button button_type_bottom-menu-btn button_active" role="button" aria-label="Home button"
+        id="home-button">
+        <div class="button__icon button__icon_type_home"></div>
+        <p class="button__caption button__caption_position_below">Home</p>
+      </div>
+      <div class="button button_type_bottom-menu-btn" role="button" aria-label="Health button" id="health-button">
+        <div class="button__icon button__icon_type_health"></div>
+        <p class="button__caption button__caption_position_below">Health</p>
+      </div>
+    </nav>
+  </footer>
   <script src="./pages/index.js" type="module"></script>
 </body>
 

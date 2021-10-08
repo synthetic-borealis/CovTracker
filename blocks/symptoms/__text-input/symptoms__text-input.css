@@ -1,0 +1,7 @@
+.symptoms__text-input {
+  border: 1px solid #acb8c2;
+  border-radius: 4px;
+  display: flex;
+  width: 90%;
+  margin: 15px auto 30px auto;
+}

@@ -1,0 +1,11 @@
+.tips__item-graphics {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: rgba(98, 132, 249, 1);
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 1;
+  right: 10px;
+  top: 10px;
+}

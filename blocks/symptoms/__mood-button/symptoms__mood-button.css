@@ -1,0 +1,21 @@
+.symptoms__mood-button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(39, 174, 96, 1);
+  background-image: url("../../../images/icons/EmojiSmile.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-color 0.5s;
+}
+
+.symptoms__mood-button:hover {
+  background-color: rgba(106, 169, 132, 1);
+  transition: background-color 0.5s;
+}
+
+.symptoms__mood-button:focus {
+  background-color: rgba(0, 176, 74, 1);
+  transition: background-color 0.5s;
+}

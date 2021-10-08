@@ -1,0 +1,9 @@
+.article__title {
+  width: calc(345 / 375 * 100%);
+  margin: 0 auto 15px;
+  font-family: "Work Sans";
+  font-size: 1.5rem;
+  line-height: 1.25;
+  font-weight: 500;
+  overflow: hidden;
+}

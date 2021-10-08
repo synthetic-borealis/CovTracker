@@ -1,0 +1,10 @@
+.panel__bottom {
+  overflow-y: scroll;
+  max-height: 100%;
+  opacity: 0;
+  transition: opacity .05s linear;
+}
+
+.panel_active > .panel__bottom {
+  opacity: 1;
+}
