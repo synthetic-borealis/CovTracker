@@ -7,5 +7,5 @@
   background-color: white;
   overflow: hidden;
   z-index: 10;
-  transition: left .1s linear;
+  transition: left .2s linear;
 }
