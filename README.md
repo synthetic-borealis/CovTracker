@@ -27,7 +27,7 @@ Users should be able to:
 - Add their symptoms on a daily basis.
 - View all interactive elements on a popup panel.
 
-### Screenshot
+### Screenshots
 
 <img src="./images/screenshots/screenshot-main.png" style="max-width: 45%; margin-right: 10px">
 <img src="./images/screenshots/screenshot-symptoms.png" style="max-width: 45%">
