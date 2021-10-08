@@ -91,6 +91,7 @@
 @import url("../blocks/article/__subtitle/_size/article__subtitle_size_small.css");
 @import url("../blocks/article/__ordered-list/article__ordered-list.css");
 @import url("../blocks/article/__ordered-list-item/article__ordered-list-item.css");
+@import url("../blocks/article/__link/article__link.css");
 
 @import url("../blocks/bottom-bar/bottom-bar.css");
 @import url("../blocks/bottom-bar/__menu/bottom-bar__menu.css");
