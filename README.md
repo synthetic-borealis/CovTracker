@@ -26,11 +26,11 @@ Users should be able to:
 - View the the app on a mobile divice
 - See hover states for all interactive elements on the page
 - Add their symptoms on a daily basis
-- View each planet page and toggle between "Overview", "Internal Structure", and "Surface Geology"
+- View all interactive elemnts on a popup panel
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 
 ### Links
