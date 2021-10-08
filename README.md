@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
-![]("./images/screenshots/screenshot-main.png")
-![]("./images/screenshots/screenshot-symptoms.png")
+<img src="./images/screenshots/screenshot-main.png">
+<img src="./images/screenshots/screenshot-symptoms.png">
 
 
 ### Links
