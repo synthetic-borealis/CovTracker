@@ -35,92 +35,9 @@
       <p class="date-bubble__current-date date-bubble__current-date_type_month">
         October
       </p>
-      <button class="date-bubble__add-symptoms"></button>
+      <button class="date-bubble__add-symptoms button" id="symptoms-button"></button>
     </div>
   </section>
-
-  <!-- TODO: Move this into a panel -->
-  <section class="symptoms">
-    <div class="symptoms__container">
-      <div class="symptoms__top">
-        <div class="button button_type_collapse"></div>
-        <p class="symptoms__top-title">5 October</p>
-      </div>
-      <div class="symptoms__top-buttons">
-
-        <div>
-          <button class="symptoms__top-button"></button>
-          <p class="symptoms__top-button-title">Weight</p>
-        </div>
-        <div>
-          <button class="symptoms__top-button symptoms__top-button_type_sleep"></button>
-          <p class="symptoms__top-button-title">Sleep</p>
-        </div>
-        <div>
-          <button class="symptoms__top-button symptoms__top-button_type_water"></button>
-          <p class="symptoms__top-button-title">Water</p>
-        </div>
-
-      </div>
-      <p class="symptoms__title">Symptoms</p>
-      <div class="symptoms__switches">
-        <div class="symptoms__switch-container">
-          <p class="symptoms__switch-title">Temperature:</p>
-          <input class="symptoms__checkbox" type="checkbox">
-          <p class="symptoms__switch-title-temp">(put a checkmark if your temperature >37)</p>
-        </div>
-
-        <div class="symptoms__switch-container">
-          <p class="symptoms__switch-title">Cough:</p>
-          <label class="switch">
-            <input class="switch__input" type="checkbox">
-            <span class="switch__slider"></span>
-          </label>
-        </div>
-        <div class="symptoms__switch-container">
-          <p class="symptoms__switch-title">Fatigue:</p>
-          <label class="switch">
-            <input class="switch__input" type="checkbox">
-            <span class="switch__slider"></span>
-          </label>
-        </div>
-        <div class="symptoms__switch-container">
-          <p class="symptoms__switch-title">Lost smell:</p>
-          <label class="switch">
-            <input class="switch__input" type="checkbox">
-            <span class="switch__slider"></span>
-          </label>
-        </div>
-        <div class="symptoms__switch-container">
-          <p class="symptoms__switch-title">Lost taste:</p>
-          <label class="switch">
-            <input class="switch__input" type="checkbox">
-            <span class="switch__slider"></span>
-          </label>
-        </div>
-        <div class="symptoms__switch-container">
-          <p class="symptoms__switch-title">Headache:</p>
-          <label class="switch">
-            <input class="switch__input" type="checkbox">
-            <span class="switch__slider"></span>
-          </label>
-        </div>
-      </div>
-      <div>
-        <p class="symptoms__title">Other symptoms</p>
-        <input class="symptoms__text-input" type="text">
-      </div>
-      <div>
-        <p class="symptoms__title">Mood</p>
-        <div class="symptoms__mood">
-          <button class="symptoms__mood-button"></button>
-          <button class="symptoms__mood-button symptoms__mood-button_type_nutral"></button>
-          <button class="symptoms__mood-button symptoms__mood-button_type_sad"></button>
-        </div>
-      </div>
-    </div>
-  </section>
-
 
   <section class="news">
     <h2 class="news__title">News</h2>
@@ -184,6 +101,90 @@
       </div>
     </div>
   </section> -->
+
+  <!-- Symptoms Panel -->
+  <section class="panel panel_active" id="symptoms">
+    <div class="panel__top">
+      <div class="panel__top-container">
+        <div class="button button_type_collapse"></div>
+        <h2 class="panel__heading">5 October</h2>
+      </div>
+    </div>
+
+    <div class="panel__bottom symptoms">
+      <div class="symptoms__top-buttons">
+        <div>
+          <button class="symptoms__top-button"></button>
+          <p class="symptoms__top-button-title">Weight</p>
+        </div>
+        <div>
+          <button class="symptoms__top-button symptoms__top-button_type_sleep"></button>
+          <p class="symptoms__top-button-title">Sleep</p>
+        </div>
+        <div>
+          <button class="symptoms__top-button symptoms__top-button_type_water"></button>
+          <p class="symptoms__top-button-title">Water</p>
+        </div>
+      </div>
+
+      <p class="symptoms__title">Symptoms</p>
+      <div class="symptoms__switches">
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Temperature:</p>
+          <input class="symptoms__checkbox" type="checkbox">
+          <p class="symptoms__switch-title-temp">(put a checkmark if your temperature >37)</p>
+        </div>
+
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Cough:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Fatigue:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Lost smell:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Lost taste:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+        <div class="symptoms__switch-container">
+          <p class="symptoms__switch-title">Headache:</p>
+          <label class="switch">
+            <input class="switch__input" type="checkbox">
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+      </div>
+      <div>
+        <p class="symptoms__title">Other symptoms</p>
+        <input class="symptoms__text-input" type="text">
+      </div>
+      <div>
+        <p class="symptoms__title">Mood</p>
+        <div class="symptoms__mood">
+          <button class="symptoms__mood-button"></button>
+          <button class="symptoms__mood-button symptoms__mood-button_type_nutral"></button>
+          <button class="symptoms__mood-button symptoms__mood-button_type_sad"></button>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- News Article Panels -->
   <section class="panel" id="article-vitamin-a">

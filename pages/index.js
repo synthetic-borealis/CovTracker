@@ -1,6 +1,12 @@
 import Button from "../components/Button.js";
 import Panel from "../components/Panel.js";
 
+// Symptoms
+const symptomsPanel = new Panel({ panelID: "symptoms" });
+symptomsPanel.setEventListeners();
+const symptomsButton = new Button({ buttonID: "symptoms-button" }, symptomsPanel.open);
+symptomsButton.setEventListeners();
+
 // News article panels
 const vitaminANewsPanel = new Panel({panelID: "article-vitamin-a"});
 vitaminANewsPanel.setEventListeners();
