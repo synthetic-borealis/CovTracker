@@ -1,0 +1,4 @@
+.article__subtitle_size_small {
+  font-size: 1.125rem;
+  line-height: calc(20 / 18);
+}
